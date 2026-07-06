@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#ffffff;
+    padding:0px;
+}
+
+
+.header{
+  background:#abe1ef;
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.hero{
+    background:url("banner.jpg") center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero-content h1{
+    font-size:38px;
+    color:rgb(7, 1, 1);}
+
+.hero-content p{
+    font-size:12px;
+    margin:20px 0;
+    color:rgb(0, 0, 0);
+}
+.hero-content img{
+    width:699px;
+    height:auto;
+    margin-top:20px;
+}
+
+.btn{
+    background:#ff6600;
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    padding:12px 25px;
+    border:2px solid black  ;
+   box-shadow:0 0 5px black
+}
+
+.btn:hover{
+    background:#e65c00;
+}
+
+.featured{
+    padding:50px;
+    text-align:center;
+}
+
+.tour-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:30px;
+}
+
+.tour-card{
+    width:250px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+    overflow:hidden;
+    justify-content:center;
+}
+.button{
+    background:#ff6600;
+    color:white;
+    padding:12px 25px;
+    border-radius:5px;
+    margin:10px 0 20px 0;
+    display:block;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.tour-card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.tour-card h3{
+    margin:15px 0;
+}
+
+.tour-card p{
+    padding:0 15px 20px;
+}
+
+footer{
+    background:#161616;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+.logo img{
+    width:200px;
+    height:auto;
+}
+
+.navbar{
+    flex:1;
+    background:#544c4c;
+    border-radius:15px;
+    padding:10px 60px;
+}
+
+.navbar ul{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    list-style:none;
+}
+
+.navbar ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    padding:10px 18px;
+    transition:0.3s;
+}
+
+.navbar ul li a:hover{
+    color:#ff6b00;
+}
+
+.navbar ul li a.active{
+    color:#ff6b00;
+}
+.book-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #ff6600; /* Original bright orange */
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 0px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
